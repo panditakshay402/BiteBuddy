@@ -1,7 +1,6 @@
 package com.example.bitebuddy;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -11,7 +10,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.google.android.material.button.MaterialButton;
 
 public class LoginActivity extends AppCompatActivity {
@@ -41,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
                 if(user.equals("")||pass.equals(""))
-                    Toast.makeText(LoginActivity.this,"Please enter all the flieds",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"Please enter all the fields",Toast.LENGTH_SHORT).show();
                 else{
                     Boolean checker=dbHelper.checkusernamepassword(user,pass);
                     if(checker==true){

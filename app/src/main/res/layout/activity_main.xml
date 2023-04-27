@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/logo"
 
-        ></ImageView>
+       />
 
     <TextView
         android:id="@+id/signup"

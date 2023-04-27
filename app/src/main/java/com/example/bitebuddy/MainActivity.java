@@ -1,7 +1,6 @@
 package com.example.bitebuddy;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     if(pass.equals(repass)){
                         Boolean usercheckResult=MyDB.checkusername(user);
-                        if(usercheckResult==false)
+                        if(usercheckResult == false)
                         {
                             Boolean regResult=MyDB.insertData(user,pass);
-                            if(regResult==true)
+                            if(regResult == true)
                             {
                                 Toast.makeText(MainActivity.this,"Registered Successfully",Toast.LENGTH_SHORT).show();
 
@@ -64,7 +62,8 @@ public class MainActivity extends AppCompatActivity {
                         {
                             Toast.makeText(MainActivity.this,"User Already Exist! Please Sign in",Toast.LENGTH_SHORT).show();
                         }
-                    }else {
+                    }else
+                    {
                         Toast.makeText(MainActivity.this,"Password Not matched",Toast.LENGTH_SHORT).show();
 
                     }
@@ -73,14 +72,12 @@ public class MainActivity extends AppCompatActivity {
         });
         login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 Intent intent=new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(intent);
             }
         });
-
-
-
 
     }
 }
