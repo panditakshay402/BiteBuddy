@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">BiteBuddy</string>
+    <string name="app_name" translatable="false">BiteBuddy</string>
+    <string name="description_food" translatable="false">The absorption and utilization of food by the body is fundamental to nutrition and is facilitated by digestion.</string>
+    <string name="update_now" />
+
 </resources>

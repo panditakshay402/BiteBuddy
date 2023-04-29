@@ -1,15 +1,16 @@
 package com.example.bitebuddy;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+
+import com.google.android.ads.mediationtestsuite.activities.HomeActivity;
 import com.google.android.material.button.MaterialButton;
 
 public class LoginActivity extends AppCompatActivity {
