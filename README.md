@@ -10,6 +10,15 @@
   <h1>BiteBuddy</h1>
   <p>BiteBuddy is an Android food delivery application that allows users to browse and order from a variety of local restaurants. The app features an intuitive user interface, restaurant menus, order tracking, and secure payment options. The project is built using Java and SQLite, providing a robust and scalable mobile application that is easy to use and maintain.</p>
 
+  <h2>Technology Used: </h2>
+ <ul>
+    <li>java</li>
+    <li>Kotlin</li>
+    <li>Sqlite</li>
+    <li>Android Studio</li>
+    <li>Git</li>
+  </ul>
+
   <h2>Getting Started</h2>
   <p>To get started with BiteBuddy, you'll need to download the app from the Google Play Store. Once installed, you can create an account and start browsing local restaurants and placing orders.</p>
 
