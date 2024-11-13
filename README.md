@@ -12,7 +12,7 @@
 
   <h2>Technology Used: </h2>
  <ul>
-    <li>java</li>
+    <li>Java</li>
     <li>Kotlin</li>
     <li>Sqlite</li>
     <li>Android Studio</li>
